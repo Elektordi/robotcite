@@ -1,0 +1,56 @@
+// ================================
+//  Init devices for iRobot Create
+// ================================
+
+
+/* ------------------ Special Devices ------------------ */
+// Send commands to robot
+command  = new Command();
+// Information about robot position
+odometry = new Odometry();
+
+
+/* ---------- Internal and extension devices ----------- */
+// Battery levels
+battery  = new Battery();
+// Access to cargo bay and additionnal devices
+cargobay = new CargoBay();
+
+
+/* ------------- Low Side Driver interface ------------- */
+// Low Side Driver
+lsd0     = new LowSideDriver(0);
+lsd1     = new LowSideDriver(1);
+lsd2     = new LowSideDriver(2);
+
+
+/* ---------------------- Sensors ---------------------- */
+// InfraRed sensor
+ir       = new Ir();
+// Robot buttons
+buttonP  = new Button("Play");
+buttonA  = new Button("Advance");
+// Wall sensors
+wall     = new WallSensor();
+virtualwall    = new VirtualWallSensor();
+// Cliff sensors
+cliffL   = new CliffSensor("Left");
+cliffFL  = new CliffSensor("Front Left");
+cliffR   = new CliffSensor("Right");
+cliffFR  = new CliffSensor("Front Right");
+// Bumper sensors
+bumperL  = new Bumper("Left");
+bumperR  = new Bumper("Right");
+
+
+/* --------------------- Actuators --------------------- */
+// Robot speaker
+speaker  = new Speaker();
+// Robot leds
+ledAdvance = new Led("Advance");
+ledPlay    = new Led("Play");
+ledPower   = new Led("Power");
+// Robot wheels
+wheelF   = new Wheel("Front");
+wheelL   = new Wheel("Left");
+wheelR   = new Wheel("Right");

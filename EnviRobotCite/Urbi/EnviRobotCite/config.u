@@ -1,0 +1,11 @@
+
+// ===========================================
+//  Init base configuration for iRobot Create
+// ===========================================
+
+system.name = "/gostai/create";
+var system.type = "iRobot Create";
+
+// Set to non-zero value to activate more aliases.
+var system.aliasmode = 0;
+system.comPort = "/dev/ttyUSB0";

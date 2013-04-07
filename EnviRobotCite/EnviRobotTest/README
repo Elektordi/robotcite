@@ -1,0 +1,27 @@
+Dossier "EnviRobotTest" (Master SHM Passif pour EnviRobot - Robotcité 2008).
+
+Pour tout compiler, y'a un Makefile offert !
+
+Testé uniquement sous linux pour l'instant...
+
+	Aide:
+
+*** EnviRobotTest v1 ***
+Guillaume Genty - Planète Sciences
+<guillaume.genty@planete-sciences.org>
+
+Usage: ./envirobot_test
+	-h | -V       Display this help & version
+	-l <charge>   Low battery level (def: 2200)
+	              0: Never charge - 9999: Always charge
+	-c <charge>   Battery charged level (def: 2500)
+	-b            Homebase is a flower ! (def: disabled)
+	-k <key>      Shared Memory Key (def: 1962)
+	
+
+
+Voilà, si besoin, envoyez moi un petit mail ! :)
+
+Guillaume
+guillaume.genty@planete-sciences.org
+

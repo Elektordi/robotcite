@@ -1,0 +1,49 @@
+// ======================================
+//  Init device groups for iRobot Create
+// ======================================
+
+
+/* ------------- Low Side Driver interface ------------- */
+// Low Side Driver interface
+group lsds { lsd0, lsd1, lsd2 };
+
+/* ---------------------- Sensors ---------------------- */
+// Buttons
+group buttons { buttonP, buttonA };
+// Wall sensors
+group walls {wall, virtualwall};
+// Cliff sensors
+group cliffs
+{	cliffL, cliffR,	cliffFL, cliffFR };
+// Bumper sensors
+group bumpers { bumperL, bumperR};
+
+// All robot sensors
+group sensors { ir, buttons, walls, cliffs, bumpers };
+
+
+/* --------------------- Actuators --------------------- */
+// All leds
+group leds { ledPlay, ledPower, ledAdvance };
+// Function leds
+group functionleds { ledPlay, ledAdvance };
+// All wheels
+group wheels { wheelL, wheelR, wheelF };
+// Motorized wheels
+group activewheels { wheelL, wheelR };
+
+// All robot actuators but speaker
+group simpleactuators { wheels, leds };
+// All robot actuators
+group actuators { speaker, wheels, leds };
+
+
+/* ---------------- All Robot Hardware ----------------- */
+// All robot hardware
+group hardware
+{
+		battery, cargobay,
+		lsds,
+		sensors,
+		actuators
+};

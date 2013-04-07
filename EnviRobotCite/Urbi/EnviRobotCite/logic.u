@@ -1,0 +1,292 @@
+// ================================
+//  iRobot Create Application Logic
+// ================================
+
+// File logic.u is loaded after uobjets...
+
+// *********************************
+// * Guillaume Genty, Octobre 2008 *
+// *     Projet  EnviRobotCité     *
+// * Association  Planète Sciences *
+// *********************************
+//
+// Based on URBI (gostai.com)
+// License GNU-GPL
+// guillaume.genty@planete-sciences.org
+//
+
+freeze search;
+freeze search_base;
+freeze docking;
+freeze action;
+freeze demo_dock;
+freeze charge;
+freeze undock;
+freeze back;
+
+var logic.status = "Starting";
+
+search: every(100ms)
+{
+	logic.status = "Searching flowers";
+	
+	var vl = 100;
+	var vr = 100;
+	
+	if(wall.signal>50)
+	{
+		vl = -50;
+		vr = 50;
+	};
+	
+	if(bumperL.val)
+	{
+		vl = 0;
+		vr = -100;
+	};
+	
+	if(bumperR.val)
+	{
+		vl = -100;
+		vr = 0;
+	};
+	
+	if(bumperL.val && bumperR.val)
+	{
+		//vl = -100;
+		//vr = -100;
+		unfreeze back;
+		freeze search;
+	};
+	
+	if(0) //battery.charge<2200) // Calculé pour 5min de charge
+	{
+		vl = 0;
+		vr = 0;
+		unfreeze search_base;
+		freeze search;
+	};
+	
+	wheelL.val = vl & wheelR.val = vr;
+	
+	if(ir.val != 255) //ir.val<240)
+	{
+		unfreeze docking;
+		freeze search;
+	}
+},
+
+search_base: every(100ms)
+{
+	logic.status = "Searching base";
+	
+	var vl = 100;
+	var vr = 100;
+	
+	if(wall.signal>50)
+	{
+		vl = -50;
+		vr = 50;
+	};
+	
+	if(bumperL.val)
+	{
+		vl = 0;
+		vr = -100;
+	};
+	
+	if(bumperR.val)
+	{
+		vl = -100;
+		vr = 0;
+	};
+	
+	if(bumperL.val && bumperR.val)
+	{
+		//vl = -100;
+		//vr = -100;
+		unfreeze back;
+		freeze search_base;
+	};
+	
+	//if(ir.val<255 && ir.val>240 && ir.val!=242 && ir.val!=240) // 242 = F !R !G  &  240 = Reserved ?! mais arrive quand même quand dans F
+	if(ir.val==254)
+	{
+		wheelL.val = 0 & wheelR.val = 0;
+		command.launchDemo(1);
+		//unfreeze start_demo_dock;
+		unfreeze demo_dock;
+		freeze search_base;
+	}
+	else
+		wheelL.val = vl & wheelR.val = vr;
+},
+
+var logic.BackStep = 0;
+back: every(100ms)
+{
+	logic.status = "Backwarding";
+	logic.BackStep++;
+	if(logic.BackStep<10)
+	{
+		wheelL.val = -100 & wheelR.val = -100;
+	}
+	else
+	{
+		wheelL.val = 100 & wheelR.val = -100;
+	};
+	
+	if(logic.BackStep>30)
+	{
+		wheelL.val = 0 & wheelR.val = 0;
+		logic.BackStep=0;
+		unfreeze search;
+		freeze back;
+	};
+},
+
+var logic.demo_dock_timeout = 0;
+demo_dock: every(1s)
+{
+	logic.status = "Docking on base";
+	//command.launchDemo(1); --> Lors de la transition (ci-dessus)
+
+	if(battery.source>0)
+	{
+		unfreeze charge;
+		freeze demo_dock;
+	};
+
+	if(ir.val<240 || ir.val==255 || ir.val==242 || ir.val==240) // 242 = F !R !G  &  240 = Reserved ?! mais arrive quand même quand dans F
+		logic.demo_dock_timeout++;
+	
+	if(logic.demo_dock_timeout>3)
+	{
+		command.stopDemo();
+		sleep(500ms);
+		command.mode="Full";
+		unfreeze search_base;
+		freeze demo_dock;
+		logic.demo_dock_timeout = 0;
+	};
+},
+
+charge: every(1s)
+{
+	logic.status = "Charging battery";
+	if(battery.charge>2500)
+	{
+		command.stopDemo();
+		sleep(500ms);
+		command.mode="Full";
+		unfreeze undock;
+		freeze charge;		
+	};
+},
+
+var logic.GoBase_Found = 0;
+docking: every(100ms)
+{
+	logic.status = "Approching flower";
+	var irda = trunc(ir.val/4);
+	var G = irda%2;
+	irda = trunc(irda/2);
+	var R = irda%2;
+	
+	if(ir.val==255)
+	{
+		G=0;
+		R=0;
+	};
+	
+	var vl = 100;
+	var vr = 100;
+	
+	if(R && G && !logic.GoBase_Found) logic.GoBase_Found=1;
+	//if(!R && !G) logic.GoBase_Found=0; // Ca servait à rien...
+
+	if(logic.GoBase_Found)
+	{
+		echo("Base located !");
+		if(R && !G)
+		{
+			vl = -50;
+			vr = 50;
+			echo("The base is at left... (<==)");
+		};
+		if(G && !R)
+		{
+			vl = 50;
+			vr = -50;		
+			echo("The base is at right... (==>)");
+		};
+	};	
+	
+	wheelL.val = vl & wheelR.val = vr;
+	
+	if(bumperL.val || bumperR.val)
+	{
+		wheelL.val = 0 & wheelR.val = 0;
+		if(logic.GoBase_Found)
+		{
+			unfreeze action;
+		}
+		else
+		{
+			unfreeze search;
+		};
+		freeze docking;
+		logic.GoBase_Found=0; // RAZ pour prochain dock
+	};
+},
+
+action: every(100ms)
+{
+	logic.status = "Doing stuff with flower";
+	// TODO
+	echo("ACTION !!!");
+	unfreeze undock;
+	freeze action;
+},
+
+var logic.UndockStep = 0;
+undock: every(100ms)
+{
+	logic.status = "Disengaging";
+	logic.UndockStep++;
+	if(logic.UndockStep<20) // TODO: 20cm avec l'odométrie
+	{
+		wheelL.val = -100 & wheelR.val = -100;
+	}
+	else
+	{
+		wheelL.val = 100 & wheelR.val = -100;
+	};
+	
+	if(logic.UndockStep>50) // TODO: 180° avec l'odométrie
+	{
+		wheelL.val = 0 & wheelR.val = 0;
+		logic.UndockStep=0;
+		unfreeze search;
+		freeze undock;
+	};
+},
+
+var laststatus = "Starting";
+status: every(1s)
+{
+	if(laststatus != logic.status)
+	{
+		echo("New status: "+logic.status+" (was: "+laststatus+")");
+		laststatus = logic.status;
+	}
+},
+
+echo("[DANGER] Starting robot in 3s...");
++connection("all"): echo("[DANGER] Starting robot in 3s...");
+sleep(3s);
+unfreeze search;
+
+echo("+OK"); // End of logic
++connection("all"): echo("Go !!!");
+

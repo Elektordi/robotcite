@@ -1,0 +1,23 @@
+Dossier "EnviRobotGui" (Affichage EnviRobot - Robotcité 2008).
+
+Pour tout compiler, y'a un Makefile offert !
+
+Testé uniquement sous linux pour l'instant...
+
+	Aide:
+
+*** EnviRobotGUI v1 ***
+Guillaume Genty - Planète Sciences
+<guillaume.genty@planete-sciences.org>
+
+Usage: ./envirobotgui
+	-h | -V       Display this help & version
+	-k <key>      Shared Memory Key (def: 1962)
+
+
+
+Voilà, si besoin, envoyez moi un petit mail ! :)
+
+Guillaume
+guillaume.genty@planete-sciences.org
+

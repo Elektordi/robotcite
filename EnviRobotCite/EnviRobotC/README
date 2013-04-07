@@ -1,0 +1,44 @@
+Dossier "EnviRobotC" (Logique C pour EnviRobot - Robotcité 2008).
+
+Pour tout compiler, y'a un Makefile offert !
+
+Testé uniquement sous linux pour l'instant...
+
+	Aide:
+
+*** EnviRobotC v1 ***
+Guillaume Genty - Planète Sciences
+<guillaume.genty@planete-sciences.org>
+
+Usage: ./envirobot
+	-h | -V       Display this help & version
+	-s <device>   Select serial port (def: /dev/ttyUSB0)
+	-l <charge>   Low battery level (def: 2200)
+	              0: Never charge - 9999: Always charge
+	-c <charge>   Battery charged level (def: 2500)
+	-b            Homebase is a flower ! (def: disabled)
+	-k <key>      Shared Memory Key (def: 1962)
+	
+
+
+Voilà, si besoin, envoyez moi un petit mail ! :)
+
+Guillaume
+guillaume.genty@planete-sciences.org
+
+___________________________________________________________
+
+PS: Comment se connecter en BlueTooth sous linux:
+
+	Scan phériphériques à portée:
+hcitool scan
+	S'associer:
+hcitool cc XX:XX:XX:XX:XX:XX
+	Lister les services:
+sdptool browse XX:XX:XX:XX:XX:XX
+	Se connecter:
+rfcomm connect 0 XX:XX:XX:XX:XX:XX
+
+Il suffit de lancer la dernière commande pour se connecter.
+Le port série est alors attribué à /dev/rfcomm0
+

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="drawing.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3410">
+      <stop
+         style="stop-color:#008080;stop-opacity:1;"
+         offset="0"
+         id="stop3412" />
+      <stop
+         style="stop-color:#008080;stop-opacity:0;"
+         offset="1"
+         id="stop3414" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3376">
+      <stop
+         style="stop-color:#3a6e6f;stop-opacity:1;"
+         offset="0"
+         id="stop3378" />
+      <stop
+         style="stop-color:#e3e3e3;stop-opacity:1;"
+         offset="1"
+         id="stop3380" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3410"
+       id="linearGradient3416"
+       x1="119.5"
+       y1="812.375"
+       x2="300.5"
+       y2="812.375"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-60,-80.012817)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3410"
+       id="linearGradient3420"
+       gradientUnits="userSpaceOnUse"
+       x1="119.5"
+       y1="812.375"
+       x2="300.5"
+       y2="812.375"
+       gradientTransform="matrix(0.8660254,0.5,-0.5,0.8660254,356.3799,76.145193)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="497.8885"
+     inkscape:cy="906.30768"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1016"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2385"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(-50,160)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff"
+       id="path2389"
+       sodipodi:cx="220"
+       sodipodi:cy="402.36218"
+       sodipodi:rx="60"
+       sodipodi:ry="20"
+       d="M 280,402.36218 A 60,20 0 0 1 169.54355,413.18473 L 220,402.36218 z"
+       sodipodi:start="0"
+       sodipodi:end="2.5698158" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path2391"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(-60,20)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2393"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(30,160)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path2395"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(20,20)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3211"
+       sodipodi:cx="290"
+       sodipodi:cy="202.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 300,202.36218 A 10,10 0 1 1 280,202.36218 A 10,10 0 1 1 300,202.36218 z"
+       transform="translate(-95,115)"
+       inkscape:export-filename="/home/ivanhoe/plasci/robotcite/sdlEnvirobot/images/bulles.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3215"
+       sodipodi:cx="345"
+       sodipodi:cy="137.36218"
+       sodipodi:rx="15"
+       sodipodi:ry="15"
+       d="M 360,137.36218 A 15,15 0 1 1 330,137.36218 A 15,15 0 1 1 360,137.36218 z"
+       transform="translate(-125,150)"
+       inkscape:export-filename="/home/ivanhoe/plasci/robotcite/sdlEnvirobot/images/bulles.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 540.63812,35.603345 C 500.16054,35.603345 464.64969,48.308833 445,67.362183 C 431.42943,63.902003 416.47448,62.069043 400.76518,62.069043 C 346.33469,62.069043 300.98148,85.036143 290.96494,115.49664 C 242.54285,119.4805 204.94309,147.37308 204.94309,181.16463 C 204.94309,207.69535 228.12213,230.58184 261.5042,241.12595 C 261.13193,243.14786 260.89226,245.2443 260.89226,247.32886 C 260.89226,276.54697 298.4901,300.26023 344.81601,300.26023 C 346.9425,300.26023 349.0234,300.19298 351.1103,300.09481 C 366.36941,315.58241 407.87435,326.72591 456.71437,326.72591 C 518.48226,326.72591 568.61272,308.94097 568.61272,287.02738 C 568.61272,282.3314 566.28163,277.81153 562.05616,273.62913 C 564.235,273.67403 566.40233,273.79454 568.61272,273.79454 C 630.3806,273.79454 680.51106,256.0096 680.51106,234.09601 C 680.51106,225.08438 672.06019,216.69424 657.7817,210.02877 C 688.31451,198.20982 708.48564,177.87325 708.48564,154.69895 C 708.48564,130.13818 685.82144,108.63406 652.18679,97.218783 C 648.2673,62.793883 599.84619,35.603345 540.63812,35.603345 z"
+       id="path3221"
+       sodipodi:nodetypes="ccscscsscsscsscscc"
+       inkscape:export-filename="/home/ivanhoe/plasci/robotcite/sdlEnvirobot/images/bulles.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3262"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="matrix(1.0000351,0,0,0.995764,-39.756308,226.36863)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff"
+       id="path3264"
+       sodipodi:cx="220"
+       sodipodi:cy="402.36218"
+       sodipodi:rx="60"
+       sodipodi:ry="20"
+       d="M 280,402.36218 A 60,20 0 0 1 169.54355,413.18473 L 220,402.36218 z"
+       sodipodi:start="0"
+       sodipodi:end="2.5698158"
+       transform="translate(-39.75,224.75001)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3266"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(-44.74408,105.09418)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3268"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="matrix(1.0000834,0,0,0.9899329,40.229056,228.2527)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3270"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(35.25,104.75001)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000"
+       id="rect3272"
+       width="30"
+       height="50"
+       x="250.25"
+       y="567.11218"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\pile.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000"
+       id="rect3274"
+       width="10"
+       height="10"
+       x="260.25"
+       y="557.11218"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\pile.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 290,572.36218 L 300,572.36218 L 300,572.36218 L 300,572.36218"
+       id="path3276"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\pile.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 295,567.36218 L 295,577.36218"
+       id="path3278"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\pile.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 290.25,607.11218 L 300.25,607.11218 L 300.25,607.11218"
+       id="path3280"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\pile.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3282"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(410,460)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3284"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(390,345)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3286"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(490,460)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3288"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(470,345)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3304"
+       width="5"
+       height="0"
+       x="430"
+       y="387.36218" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 669.8125,722.36218 C 653.2525,722.36218 639.8125,735.80218 639.8125,752.36218 L 640,752.36218 C 639.80204,753.17103 639.6875,753.99051 639.6875,754.83093 C 639.6875,764.47772 653.18756,772.29967 669.8125,772.29968 C 686.43743,772.29968 699.93749,764.47771 699.9375,754.83093 C 699.9375,753.99051 699.82296,753.17103 699.625,752.36218 L 699.8125,752.36218 C 699.8125,735.80218 686.3725,722.36218 669.8125,722.36218 z"
+       id="path3308"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 589.8125,722.36218 C 573.2525,722.36218 559.8125,735.80218 559.8125,752.36218 L 560,752.36218 C 559.80204,753.17103 559.6875,753.99051 559.6875,754.83093 C 559.6875,764.47772 573.18756,772.29967 589.8125,772.29968 C 606.43743,772.29968 619.93749,764.47771 619.9375,754.83093 C 619.9375,753.99051 619.82296,753.17103 619.625,752.36218 L 619.8125,752.36218 C 619.8125,735.80218 606.3725,722.36218 589.8125,722.36218 z"
+       id="path3312"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3314"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(240,250)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3316"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(220,125)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3318"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(320,250)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3320"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(300,125)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 130,422.36218 C 113.44,422.36218 100,435.80218 100,452.36218 C 100,453.21797 100.05464,454.05573 100.125,454.89343 C 101.66444,442.31214 114.45244,432.48718 130,432.48718 C 145.54756,432.48718 158.33556,442.31214 159.875,454.89343 C 159.94536,454.05573 160,453.21797 160,452.36218 C 160,435.80218 146.56,422.36218 130,422.36218 z"
+       id="path3326"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 210,422.36218 C 193.44,422.36218 180,435.80218 180,452.36218 C 180,453.21797 180.05464,454.05573 180.125,454.89343 C 181.66444,442.31214 194.45244,432.48718 210,432.48718 C 225.54756,432.48718 238.33556,442.31214 239.875,454.89343 C 239.94536,454.05573 240,453.21797 240,452.36218 C 240,435.80218 226.56,422.36218 210,422.36218 z"
+       id="path3331"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 420,512.36218 C 403.44,512.36218 390,525.80218 390,542.36218 C 390,543.21797 390.05464,544.05573 390.125,544.89343 C 391.66444,532.31214 404.45244,522.48718 420,522.48718 C 435.54756,522.48718 448.33556,532.31214 449.875,544.89343 C 449.94536,544.05573 450,543.21797 450,542.36218 C 450,525.80218 436.56,512.36218 420,512.36218 z"
+       id="path3333"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 500,512.36218 C 483.44,512.36218 470,525.80218 470,542.36218 C 470,543.21797 470.05464,544.05573 470.125,544.89343 C 471.66444,532.31214 484.45244,522.48718 500,522.48718 C 515.54756,522.48718 528.33556,532.31214 529.875,544.89343 C 529.94536,544.05573 530,543.21797 530,542.36218 C 530,525.80218 516.56,512.36218 500,512.36218 z"
+       id="path3335"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 140,487.36218 C 123.44,487.36218 110,500.80218 110,517.36218 C 110,518.21797 110.05464,519.05573 110.125,519.89343 C 111.66444,507.31214 124.45244,497.48718 140,497.48718 C 155.54756,497.48718 168.33556,507.31214 169.875,519.89343 C 169.94536,519.05573 170,518.21797 170,517.36218 C 170,500.80218 156.56,487.36218 140,487.36218 z"
+       id="path3337"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 220,487.36218 C 203.44,487.36218 190,500.80218 190,517.36218 C 190,518.21797 190.05464,519.05573 190.125,519.89343 C 191.66444,507.31214 204.45244,497.48718 220,497.48718 C 235.54756,497.48718 248.33556,507.31214 249.875,519.89343 C 249.94536,519.05573 250,518.21797 250,517.36218 C 250,500.80218 236.56,487.36218 220,487.36218 z"
+       id="path3339"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3349"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(240,320)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3351"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(220,195.00001)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3353"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(320,320)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000"
+       id="path3355"
+       sodipodi:cx="200"
+       sodipodi:cy="422.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       d="M 210,422.36218 A 10,10 0 1 1 190,422.36218 A 10,10 0 1 1 210,422.36218 z"
+       transform="translate(300,195.00001)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3361"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(240,390)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 500,582.36218 C 483.44,582.36218 470,595.80218 470,612.36218 L 530,612.36218 C 530,595.80218 516.56,582.36218 500,582.36218 z"
+       id="path3363"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 420,582.36218 C 403.44,582.36218 390,595.80218 390,612.36218 L 450,612.36218 C 450,595.80218 436.56,582.36218 420,582.36218 z"
+       id="path3368"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffcb82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3372"
+       sodipodi:cx="180"
+       sodipodi:cy="292.36218"
+       sodipodi:rx="30"
+       sodipodi:ry="30"
+       d="M 210,292.36218 A 30,30 0 1 1 150,292.36218 A 30,30 0 1 1 210,292.36218 z"
+       transform="translate(320,390)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\oeil5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3416);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 80,692.36218 L 80,712.36218 C 79.655,712.36218 79.30948,712.34489 78.96875,712.36218 C 68.4062,712.89817 60,721.66718 60,732.36218 C 60,743.40218 68.96,752.36218 80,752.36218 L 80,772.36218 L 180,772.36218 L 240,712.36218 L 240,692.36218 L 180,752.36218 L 180,692.36218 L 80,692.36218 z M 80,722.36218 L 80,742.36218 C 74.48,742.36218 70,737.88218 70,732.36218 C 70,726.84218 74.48,722.36218 80,722.36218 z"
+       id="path3392"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\arrosoir1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3420);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 91.43592,815.04166 L 81.43592,832.36217 C 81.13714,832.18967 80.84655,832.00193 80.54283,831.84654 C 71.1274,827.02945 59.46291,830.42053 54.1154,839.68268 C 48.5954,849.2436 51.87499,861.48319 61.43591,867.00319 L 51.43591,884.3237 L 138.03847,934.32371 L 220,912.36218 L 230,895.04167 L 148.03847,917.0032 L 178.03847,865.04167 L 91.43592,815.04166 z M 76.43592,841.02242 L 66.43591,858.34294 C 61.65545,855.58294 60.01566,849.46314 62.77566,844.68268 C 65.53566,839.90222 71.65546,838.26242 76.43592,841.02242 z"
+       id="path3418"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\arrosoir2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:0.68319708000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 380.01653,832.36218 L 380.01653,902.39039 C 380.01653,906.25595 397.93283,909.39321 420.00827,909.39321 C 442.0837,909.39321 460,906.25595 460,902.39039 L 460,832.36218 L 380.01653,832.36218 z"
+       id="rect3426"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisK.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3424"
+       sodipodi:cx="420"
+       sodipodi:cy="812.36218"
+       sodipodi:rx="60"
+       sodipodi:ry="10"
+       d="M 480,812.36218 A 60,10 0 1 1 360,812.36218 A 60,10 0 1 1 480,812.36218 z"
+       transform="matrix(0.6674264,0,0,0.4962253,139.68091,429.20977)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisK.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3431"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(16.638834,14.914063)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisK.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3433"><rect
+           id="rect3435"
+           width="67.85714"
+           height="60"
+           x="387.85715"
+           y="837.36218" /></flowRegion><flowPara
+         id="flowPara3437">K</flowPara></flowRoot>    <path
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:0.68319708000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 479.97095,832.39992 L 479.97095,902.42813 C 479.97095,906.29369 497.88725,909.43095 519.96269,909.43095 C 542.03812,909.43095 559.95442,906.29369 559.95442,902.42813 L 559.95442,832.39992 L 479.97095,832.39992 z"
+       id="path3439"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisN.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3441"
+       sodipodi:cx="420"
+       sodipodi:cy="812.36218"
+       sodipodi:rx="60"
+       sodipodi:ry="10"
+       d="M 480,812.36218 A 60,10 0 1 1 360,812.36218 A 60,10 0 1 1 480,812.36218 z"
+       transform="matrix(0.6674264,0,0,0.4962253,239.63533,429.24751)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisN.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3443"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(116.59326,14.951813)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisN.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3445"><rect
+           id="rect3447"
+           width="67.85714"
+           height="60"
+           x="387.85715"
+           y="837.36218" /></flowRegion><flowPara
+         id="flowPara3449">N</flowPara></flowRoot>    <path
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:0.68319708000000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 580.06212,832.39992 L 580.06212,902.42813 C 580.06212,906.29369 597.97842,909.43095 620.05386,909.43095 C 642.12929,909.43095 660.04559,906.29369 660.04559,902.42813 L 660.04559,832.39992 L 580.06212,832.39992 z"
+       id="path3451"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisP.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#09d000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3453"
+       sodipodi:cx="420"
+       sodipodi:cy="812.36218"
+       sodipodi:rx="60"
+       sodipodi:ry="10"
+       d="M 480,812.36218 A 60,10 0 1 1 360,812.36218 A 60,10 0 1 1 480,812.36218 z"
+       transform="matrix(0.6674264,0,0,0.4962253,339.7265,429.24751)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisP.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3455"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(216.68443,14.951811)"
+       inkscape:export-filename="C:\Documents and Settings\Iv\Bureau\iCreate\robotcite\envirobotrigolo\envirobotrigolo\images\engraisP.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3457"><rect
+           id="rect3459"
+           width="67.85714"
+           height="60"
+           x="387.85715"
+           y="837.36218" /></flowRegion><flowPara
+         id="flowPara3461">P</flowPara></flowRoot>  </g>
+</svg>

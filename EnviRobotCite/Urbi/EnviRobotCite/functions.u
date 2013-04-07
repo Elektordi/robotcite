@@ -1,0 +1,217 @@
+// ===========================================
+//  Declare basic functions for iRobot Create
+// ===========================================
+
+
+/* ------------------ Basic Movements ------------------ */
+
+// Make iRobot create turn of given angle at given velocity
+// (mm/s) or current velocity if "velocity" is '0'.
+// Make robot stop at end of movement if given velocity is
+// not 0.
+// Return at end of movement.
+function func.rotateAngleOdo (angleNeeded, velocity)
+{
+		// Get destination values
+		var curAngle = odometry.angle;
+		var destAngle = odometry.angle + angleNeeded;
+
+		// Set way of turning
+		var modif = 1;
+		if (angleNeeded < 0)
+				modif = -1;
+
+		// Set velocity if requested
+		if (velocity != 0)
+		{
+				wheelR.val = velocity * modif &
+				wheelL.val = -velocity * modif;
+		};
+
+		// Wait until rotation completion
+		if (angleNeeded < 0)
+				waituntil (odometry.angle <= destAngle)
+		else
+				waituntil (odometry.angle >= destAngle);
+
+		// Stop if needed
+		if (velocity != 0)
+				wheelL.val = 0 & wheelR.val = 0;
+};
+
+// Make iRobot create go for "distance" milimeters at
+// given velocity (mm/s) or current velocity if "velocity" is '0'.
+// Make robot stop at end of movement if given velocity is
+// not 0.
+// Return at end of movement.
+function func.moveStraightOdo (distance, velocity)
+{
+		// Set velocity and distance signedness
+		if (velocity < 0 && distance < 0)
+		{
+				distance = -distance;
+				velocity = -velocity;
+		};
+		if (velocity < 0 && distance > 0)
+				distance = -distance;
+		if (velocity > 0 && distance < 0)
+				velocity = -velocity;
+
+		// Get destination value
+		var curDistance = odometry.val;
+		var destDistance = odometry.val + distance;
+
+		// Set velocity if requested
+		if (velocity != 0)
+				wheelL.val = velocity & wheelR.val = velocity;
+
+		// Wait until postion is reached
+		if (distance < 0)
+				waituntil (odometry.val <= destDistance)
+		else
+				waituntil (odometry.val >= destDistance);
+
+		// Stop if needed
+		if (velocity != 0)
+				wheelL.val = 0 & wheelR.val = 0;
+};
+
+// Will wait for the theoretical delay or the iRobot
+// Create to travel an arc of a circle of given angle
+// (degrees) and radius (mm) at given velocity (mm/s).
+// If "go" is not '0', the move is performed.
+// Return the time waited or to wait in ms.
+function func.rotateAngleTime (angle, radius, velocity, go)
+{
+		if (velocity == 0)
+				return -1;
+
+		// Distance of wheels from robot center
+		var wheelDist = 130;
+		// Direction modifiers
+		var modifAngle = 1;
+		var modifRadius = 1;
+
+		// Get orientation
+		if (radius < 0)
+				modifRadius = -1;
+		if (angle < 0)
+				modifAngle = -1;
+
+		// Distances to go for each wheels and robot
+		var distanceL = angle * (abs(radius) - modifRadius * wheelDist) / 180 * 3.141592653;
+		var distanceR = angle * (abs(radius) + modifRadius * wheelDist) / 180 * 3.141592653;
+		var distance = modifAngle * (abs(distanceL) + abs(distanceR)) / 2;
+
+		// Velocities for each wheel
+		var velocityL = modifRadius * modifAngle * velocity * distanceL / distance;
+		var velocityR = modifRadius * modifAngle * velocity * distanceR / distance;
+
+		// Time to wait for movement completion
+		var waitTime = modifAngle * distance / velocity;
+		if (waitTime < 0)
+				waitTime = -waitTime;
+
+		// Move if asked
+		if (go != 0)
+		{
+				wheelL.val = velocityL &
+				wheelR.val = velocityR;
+				exec ("sleep (" + waitTime + "s);");
+				wheelL.val = 0 &
+				wheelR.val = 0;
+		};
+		// Return time waited or to wait
+		exec ("return " + waitTime + "s;");
+};
+
+// Will wait for the theoretical delay for the iRobot
+// Create to travel "distance" millimeters at given
+// velocity (mm/s).
+// If "go" is not '0', the move is performed.
+// Return the time waited or to wait in ms.
+function func.moveStraighTime (distance, velocity, go)
+{
+		if (velocity == 0)
+				return -1;
+
+		// Time to wait for movement completion
+		var waitTime = distance / velocity;
+		if (waitTime < 0)
+				waitTime = -waitTime;
+
+		// Move if asked
+		if (go != 0)
+		{
+				wheelL.val = velocity &
+				wheelR.val = velocity;
+				exec ("sleep (" + waitTime + "s);");
+				wheelL.val = 0 &
+				wheelR.val = 0;
+		};
+		// Return time waited or to wait
+		exec ("return " + waitTime + "s;");
+};
+
+
+/* ------------------- Embeded Demos ------------------- */
+
+// Launch demo which id is "demoId".
+// If given duration is not '0', the demo will stop once
+// duration is elapsed.
+function func.demo (demoId, duration)
+{
+		if (demoId >= -1 && demoId <= 9)
+		{
+				command.launchDemo(demoId),
+				if (duration != 0)
+						sleep (duration) |	command.stopDemo ();
+		}
+		else
+				echo ("Invalid id for demo, should be in [|0,9|] or -1 to stop.");
+};
+
+
+/* -------------------- Other Demos -------------------- */
+
+// Play with leds.
+// A demo cycle is "1s/factor" long. Demo goes for "loops"
+// cycles and stopds.
+function func.blinkingLeds (factor, loops)
+{
+		if (factor == 0)
+				factor = 1;
+
+		// Init leds
+		ledPower.color = 0;
+		ledPower.val = 0;
+		ledAdvance.val = 0;
+		ledPlay.val = 0;
+
+		// Give leds time to go down
+		sleep (1s / factor);
+
+		var m = 0;
+		for (i = 0; i < loops; i = i + 1)
+		{
+				// Switch off either ledPlay or ledAdvance
+				m = 1 - m;
+				ledPlay.val = m;
+				ledAdvance.val = 1 - m;
+
+				// Switch off ledPower and change its color
+				ledPower.val = 0;
+				ledPower.color = 255 - ledPower.color;
+				// Smoothly light it up
+				for (j = 0; j <= 250; j = j + 25)
+				{
+						ledPower.val = j;
+						sleep (1s / 10 / factor);
+				};
+		};
+
+		// Switch leds off
+		ledPower.val = 0;
+		ledAdvance.val = 0;
+		ledPlay.val = 0;
+};

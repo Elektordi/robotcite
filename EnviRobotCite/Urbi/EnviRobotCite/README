@@ -1,0 +1,18 @@
+Dossier "EnviRobotCite" à mettre dans le dossier xxx-iCreate/gostai/
+
+Penser à mettre les uobjects dans xxx-iCreate/uobjects/ ! (dossier à créer)
+Les uobjects nécessaires sont sur le svn robot: http://esbm.planete-sciences.org/svn/robot/robotcite/EnviRobotCite/Urbi/uobjects/ (sources à compiler)
+
+Uniquement pour linux pour l'instant...
+
+Guillaume
+guillaume.genty@planete-sciences.org
+
+PS: Comment se connecter en BlueTooth sous linux:
+
+hcitool scan
+hcitool cc XX:XX:XX:XX:XX:XX
+sdptool browse XX:XX:XX:XX:XX:XX
+rfcomm connect 0 XX:XX:XX:XX:XX:XX x
+
+

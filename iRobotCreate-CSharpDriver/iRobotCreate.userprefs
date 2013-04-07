@@ -1,0 +1,25 @@
+﻿<UserCombinePreferences version="1.0" filename="/home/elektordi/dev/iRobotCreate/iRobotCreate.mds">
+  <Files>
+    <File name="Bienvenue" />
+    <File name="iRobotCreateTest/Main.cs" line="16" column="45" />
+    <File name="iRobotCreateInterface/iRobot.cs" line="100" column="31" />
+    <File name="iRobotCreateInterface/iRobotHelpers.cs" line="13" column="11" />
+  </Files>
+  <Views>
+    <ViewMemento id="ProjectPad">
+      <Node expanded="True">
+        <Node name="iRobotCreateInterface" expanded="True">
+          <Node name="iRobot.cs" selected="True" />
+        </Node>
+        <Node name="iRobotCreateTest" expanded="True" />
+      </Node>
+    </ViewMemento>
+    <ViewMemento id="ClassPad">
+      <Node expanded="True" />
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Property key="ActiveWindow" value="/home/elektordi/dev/iRobotCreate/iRobotCreateInterface/iRobot.cs" />
+    <Property key="ActiveConfiguration" value="Debug" />
+  </Properties>
+</UserCombinePreferences>

@@ -1,0 +1,18 @@
+UObject Wiimote pour Linux (Urbi 1.5)
+Version 2
+
+Mettre à jour le lien symbolique "uobjects" vers un sous-dossier du même nom de votre install Urbi (créer éventuellement ce dossier) pour que le module soit reconnu par le lanceur EnviRobotCité !
+
+	Pour compiler:
+apt-get install libcwiid1-dev (+ dépendances)
+Installer tout le système de compilation urbi (umake) et le configurer (Bon courage !)
+Mettre le dossier avec les binarys umake dans le PATH
+Lancer make.sh
+
+Supporte la manette principale, le Nunchuck et la manette Classique.
+Attention: Roll et Pitch semblent parfois être faux... Pas eu le temps de regarder plus en détail pourquoi...
+
+Uniquement pour linux pour l'instant... (basé sur la lib CWiid)
+
+Guillaume
+guillaume.genty@planete-sciences.org

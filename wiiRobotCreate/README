@@ -1,0 +1,39 @@
+Dossier "wiiRobotCreate" (Contrôle du robot à la Wiimote - Robotcité 2008).
+
+Pour tout compiler, y'a un Makefile offert !
+
+Uniquement sous linux pour l'instant... (car basé sur cwiid)
+
+	Aide:
+
+*** wiiRobotCreate v1 ***
+Guillaume Genty - Planète Sciences
+<guillaume.genty@planete-sciences.org>
+
+Usage: ./wiirobot
+	-h | -V       Display this help & version
+	-s <device>   Select serial port (def: /dev/ttyUSB0)
+	-b <bt_addr>  Wiimote bluetooth address (def: ANY)
+
+
+Voilà, si besoin, envoyez moi un petit mail ! :)
+
+Guillaume
+guillaume.genty@planete-sciences.org
+
+___________________________________________________________
+
+PS: Comment se connecter au robot en BlueTooth sous linux:
+
+	Scan phériphériques à portée:
+hcitool scan
+	S'associer:
+hcitool cc XX:XX:XX:XX:XX:XX
+	Lister les services:
+sdptool browse XX:XX:XX:XX:XX:XX
+	Se connecter:
+rfcomm connect 0 XX:XX:XX:XX:XX:XX
+
+Il suffit de lancer la dernière commande pour se connecter.
+Le port série est alors attribué à /dev/rfcomm0
+
